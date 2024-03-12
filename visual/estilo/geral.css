@@ -17,7 +17,7 @@
         background-color: whitesmoke;
     }
     
-    main.arco{
+    .arco{
     
     width: 80%;
     margin: 0 auto;
@@ -74,7 +74,10 @@
         z-index: 10;
         position: relative;
     }
-
+    #junto{
+        justify-content: initial;
+        
+    }
     section {
         display: flex;
         justify-content: space-around;
@@ -87,7 +90,7 @@
         text-align: center;
     }
 
-    section img {
+    .Rick {
         width: 100%;
         height: auto;
         border-radius: 10px;
